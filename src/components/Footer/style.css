@@ -1,0 +1,87 @@
+.footer {
+    background-color: var(--text);
+    height: 314px;
+    position: relative;
+    width: 1920px;
+}
+
+.footer .logo-2 {
+    height: 73px;
+    left: 389px;
+    position: absolute;
+    top: 80px;
+    width: 288px;
+}
+
+.footer .nav-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    left: 965px;
+    opacity: 0.7;
+    position: absolute;
+    top: 119px;
+}
+
+.footer .text-wrapper-6 {
+    align-self: stretch;
+    color: var(--wight);
+    font-family: "Manrope", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22.1px;
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.footer .text-wrapper-7 {
+    align-self: stretch;
+    color: var(--wight);
+    font-family: "Manrope", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22.1px;
+    position: relative;
+}
+
+.footer .text-wrapper-8 {
+    color: var(--wight);
+    font-family: var(--desktop-small-txt-font-family);
+    font-size: var(--desktop-small-txt-font-size);
+    font-style: var(--desktop-small-txt-font-style);
+    font-weight: var(--desktop-small-txt-font-weight);
+    left: 1334px;
+    letter-spacing: var(--desktop-small-txt-letter-spacing);
+    line-height: var(--desktop-small-txt-line-height);
+    opacity: 0.5;
+    position: absolute;
+    top: 207px;
+    white-space: nowrap;
+}
+
+.footer .text-wrapper-9 {
+    color: var(--wight);
+    font-family: var(--desktop-small-txt-font-family);
+    font-size: var(--desktop-small-txt-font-size);
+    font-style: var(--desktop-small-txt-font-style);
+    font-weight: var(--desktop-small-txt-font-weight);
+    left: 389px;
+    letter-spacing: var(--desktop-small-txt-letter-spacing);
+    line-height: var(--desktop-small-txt-line-height);
+    opacity: 0.5;
+    position: absolute;
+    top: 245px;
+    white-space: nowrap;
+}
+
+.footer .icon-send-square {
+    height: 40px !important;
+    left: 1491px !important;
+    position: absolute !important;
+    top: 100px !important;
+    width: 40px !important;
+}

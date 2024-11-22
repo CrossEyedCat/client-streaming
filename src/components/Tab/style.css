@@ -1,0 +1,149 @@
+.tab {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.tab .frame {
+    position: relative;
+}
+
+.tab .text-wrapper {
+    color: var(--text);
+    margin-top: -2.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tab .div {
+    position: relative;
+}
+
+.tab .text-wrapper-2 {
+    color: var(--text);
+    margin-top: -2.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tab .out {
+    color: #cfcadd;
+    margin-top: -1.00px;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tab .reg {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: var(--violet-1);
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 8px 4px;
+}
+
+.tab .out.m {
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+}
+
+.tab .s.out {
+    font-family: var(--h4-mob-font-family);
+    font-size: var(--h4-mob-font-size);
+    font-style: var(--h4-mob-font-style);
+    font-weight: var(--h4-mob-font-weight);
+    letter-spacing: var(--h4-mob-letter-spacing);
+    line-height: var(--h4-mob-line-height);
+}
+
+.tab .status-out {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: var(--violet-1);
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 8px 4px;
+}
+
+.tab .status-reg {
+    color: #cfcadd;
+    margin-top: -1.00px;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tab .status-reg.size-0-m {
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+}
+
+.tab .status-reg.size-0-s {
+    font-family: var(--h4-mob-font-family);
+    font-size: var(--h4-mob-font-size);
+    font-style: var(--h4-mob-font-style);
+    font-weight: var(--h4-mob-font-weight);
+    letter-spacing: var(--h4-mob-letter-spacing);
+    line-height: var(--h4-mob-line-height);
+}
+
+.tab .status-out {
+    font-family: var(--h4-mob-font-family);
+    font-size: var(--h4-mob-font-size);
+    font-style: var(--h4-mob-font-style);
+    font-weight: var(--h4-mob-font-weight);
+    letter-spacing: var(--h4-mob-letter-spacing);
+    line-height: var(--h4-mob-line-height);
+}
+.tab .frame.s .text-wrapper {
+    font-family: var(--h4-mob-font-family);
+    font-size: var(--h4-mob-font-size);
+    font-style: var(--h4-mob-font-style);
+    font-weight: var(--h4-mob-font-weight);
+    letter-spacing: var(--h4-mob-letter-spacing);
+    line-height: var(--h4-mob-line-height);
+}
+
+.tab .frame.m .text-wrapper {
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+}
+
+.tab .div.size-0-s .text-wrapper-2 {
+    font-family: var(--h4-mob-font-family);
+    font-size: var(--h4-mob-font-size);
+    font-style: var(--h4-mob-font-style);
+    font-weight: var(--h4-mob-font-weight);
+    letter-spacing: var(--h4-mob-letter-spacing);
+    line-height: var(--h4-mob-line-height);
+}
+
+.tab .div.size-0-m .text-wrapper-2 {
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+}

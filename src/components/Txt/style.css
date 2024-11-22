@@ -1,0 +1,23 @@
+.txt {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 22px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+
+.txt .MOST-STREAM {
+    color: var(--text);
+    flex: 1;
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}

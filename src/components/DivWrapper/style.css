@@ -1,0 +1,36 @@
+.div-wrapper {
+    background-image: url(https://c.animaapp.com/KIcIFpDL/img/img-3.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 318px;
+    position: relative;
+    width: 566px;
+}
+
+.div-wrapper .i-wrapper {
+    align-items: center;
+    background-color: var(--wight);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 4px;
+    padding: 20px;
+    position: relative;
+    top: 210px;
+    width: 518px;
+}
+
+.div-wrapper .i {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+}

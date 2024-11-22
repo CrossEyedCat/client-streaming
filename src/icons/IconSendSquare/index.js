@@ -1,0 +1,1 @@
+export { IconSendSquare } from "./IconSendSquare";

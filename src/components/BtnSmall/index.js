@@ -1,0 +1,1 @@
+export { BtnSmall } from "./BtnSmall";

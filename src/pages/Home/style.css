@@ -1,0 +1,370 @@
+.screen {
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .div-3 {
+    background-color: var(--grey-1);
+    height: 3550px;
+    position: relative;
+    width: 1920px;
+}
+
+.screen .header-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+
+.screen .element-hero {
+    height: 1005px;
+    left: 389px;
+    position: absolute;
+    top: 104px;
+    width: 1142px;
+}
+
+.screen .frame-4 {
+    display: inline-flex;
+    gap: 4px;
+    left: 0;
+    position: absolute;
+    top: 649px;
+}
+
+.screen .txt-wrapper {
+    background-image: url(https://c.animaapp.com/KIcIFpDL/img/img-@2x.png);
+    background-size: cover;
+    height: 396px;
+    position: relative;
+
+    width: 480px;
+}
+
+.screen .txt-3 {
+    align-items: center;
+    background-color: #ffffffd4;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    left:4px;
+    position: relative;
+    top: 312px;
+    width: 432px;
+}
+
+.screen .text-wrapper-10 {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-h5-font-family);
+    font-size: var(--desktop-h5-font-size);
+    font-style: var(--desktop-h5-font-style);
+    font-weight: var(--desktop-h5-font-weight);
+    letter-spacing: var(--desktop-h5-letter-spacing);
+    line-height: var(--desktop-h5-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+}
+
+.screen .flexcontainer-wrapper {
+    align-items: flex-start;
+    background-color: var(--wight);
+    border: 1px solid;
+    border-color: var(--grey-4);
+    border-radius: 24px;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    width: 598px;
+}
+
+.screen .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.screen .text {
+    align-self: stretch;
+    color: var(--text);
+    font-family: "Manrope", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23.8px;
+    position: relative;
+}
+
+.screen .span {
+    color: #1c1d2f;
+    font-family: "Manrope", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23.8px;
+}
+
+.screen .overlap-group {
+    height: 599px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1142px;
+}
+
+.screen .frame-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1142px;
+}
+
+.screen .head-3 {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--grey-4);
+    border-radius: 24px 24px 0px 0px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 30px 60px;
+    position: relative;
+    width: 1082px;
+}
+
+.screen .text-wrapper-11 {
+    color: var(--text);
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.screen .img-2 {
+    align-self: stretch;
+    height: 494px;
+    margin-top: -31px;
+    position: relative;
+    width: 100%;
+}
+
+.screen .frame-6 {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    left: 4px;
+    position: absolute;
+    top: 490px;
+    width: 1134px;
+}
+
+.screen .txt-instance {
+    flex: 1 !important;
+    flex-grow: 1 !important;
+}
+
+.screen .btn-2 {
+    align-items: center;
+    background-color: var(--violet-1);
+    border-radius: 22px;
+    display: flex;
+    height: 86.875px;
+    padding: 30px;
+    position: relative;
+    width: 114px;
+    justify-content: center;
+}
+
+.screen .text-wrapper-12 {
+    color: var(--wight);
+    font-family: var(--desktop-h3-font-family);
+    font-size: var(--desktop-h3-font-size);
+    font-style: var(--desktop-h3-font-style);
+    font-weight: var(--desktop-h3-font-weight);
+    letter-spacing: var(--desktop-h3-letter-spacing);
+    line-height: var(--desktop-h3-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.screen .element-popular {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 389px;
+    position: absolute;
+    top: 1189px;
+    width: 1142px;
+}
+
+.screen .text-wrapper-13 {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-h2-font-family);
+    font-size: var(--desktop-h2-font-size);
+    font-style: var(--desktop-h2-font-style);
+    font-weight: var(--desktop-h2-font-weight);
+    letter-spacing: var(--desktop-h2-letter-spacing);
+    line-height: var(--desktop-h2-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+}
+
+.screen .frame-7 {
+    margin-top:10px;
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 389px;
+}
+.screen .frame-71 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 0px;
+}
+.screen .frame-8 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    height: 389px;
+    position: relative;
+    width: 100%;
+}
+
+.screen .card-instance {
+    align-self: stretch !important;
+    height: unset !important;
+}
+
+.screen .design-component-instance-node {
+    flex: unset !important;
+    gap: unset !important;
+    height: 96px !important;
+    justify-content: space-between !important;
+}
+
+.screen .card-2 {
+    flex: 0 0 auto !important;
+    flex-grow: unset !important;
+}
+
+.screen .card-3 {
+    height: unset !important;
+}
+
+.screen .frame-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.screen .element-pluses {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 390px;
+    position: absolute;
+    top: 2118px;
+    width: 1141px;
+}
+
+.screen .card-4 {
+    align-self: stretch !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+}
+
+.screen .card-5 {
+    align-self: stretch !important;
+    background-color: var(--violet-1) !important;
+    height: unset !important;
+}
+
+.screen .element-cases {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 389px;
+    position: absolute;
+    top: 2723px;
+    width: 1142px;
+}
+
+.screen .frame-10 {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.screen .frame-11 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.screen .card-6 {
+    background-image: url(https://c.animaapp.com/KIcIFpDL/img/img-2.png) !important;
+}
+
+.screen .slider-instance {
+    flex: 0 0 auto !important;
+}
+
+.screen .footer-instance {
+    left: 0 !important;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+.screen .form{
+    position: fixed;
+    right: calc(50% - 222.5px);
+    top: 184px;
+}

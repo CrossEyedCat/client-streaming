@@ -1,0 +1,108 @@
+.form {
+    align-items: center;
+    background-color: var(--wight);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    position: relative;
+    width: 325px;
+}
+.form .frame1 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.form .label1 {
+    color: var(--text);
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.form .text-wrapper1 {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: relative;
+    text-align: center;
+}
+.form .fild1 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 100%;
+}
+.form .div1 {
+    align-self: stretch;
+    color: var(--grey-5);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+.form .fild-21 {
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    height: 40px;
+    position: relative;
+    width: 100%;
+}
+.form .btn-big1 {
+    color: var(--wight);
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--violet-1);
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 7px;
+    justify-content: center;
+    padding: 8px 24px 10px;
+    position: relative;
+}
+.form .text-wrapper-21 {
+    color: var(--wight);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.form .icon-cross1 {
+    height: 16px !important;
+    left: 413px !important;
+    position: absolute !important;
+    top: 16px !important;
+    width: 16px !important;
+}

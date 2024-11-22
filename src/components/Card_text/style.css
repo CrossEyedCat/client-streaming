@@ -1,0 +1,37 @@
+.card {
+    align-items: flex-start;
+    background-color: var(--wight);
+    border: 1px solid;
+    border-color: var(--grey-4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    position: relative;
+}
+
+.card .text-wrapper-5 {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-h5-font-family);
+    font-size: var(--desktop-h5-font-size);
+    font-style: var(--desktop-h5-font-style);
+    font-weight: var(--desktop-h5-font-weight);
+    letter-spacing: var(--desktop-h5-letter-spacing);
+    line-height: var(--desktop-h5-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.card .p {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: relative;
+}

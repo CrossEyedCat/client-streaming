@@ -1,0 +1,32 @@
+.fild {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.fild .text-wrapper-3 {
+    align-self: stretch;
+    color: var(--grey-5);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.fild .div-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    padding: 6px 20px 10px;
+    position: relative;
+}

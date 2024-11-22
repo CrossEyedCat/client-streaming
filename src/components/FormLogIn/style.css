@@ -1,0 +1,114 @@
+.form {
+    align-items: center;
+    background-color: var(--wight);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    position: relative;
+    width: 445px;
+}
+
+.form .tab-instance {
+    flex: 0 0 auto !important;
+}
+
+.form .fild {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.form .text-wrapper-2 {
+    align-self: stretch;
+    color: var(--grey-5);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.form .fild-2 {
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    height: 40px;
+    position: relative;
+    padding: 6px 20px 10px;
+}
+
+.form .icon-eye-wrapper {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: flex-end;
+    padding: 6px 20px 10px;
+    position: relative;
+}
+
+.form .icon-eye {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.form .btn-big {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--violet-1);
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 7px;
+    justify-content: center;
+    padding: 8px 24px 10px;
+    position: relative;
+}
+
+.form .text-wrapper-3 {
+    color: var(--wight);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.form .text-wrapper-4 {
+    align-self: stretch;
+    color: #28a5ff;
+    font-family: var(--desktop-small-txt-font-family);
+    font-size: var(--desktop-small-txt-font-size);
+    font-style: var(--desktop-small-txt-font-style);
+    font-weight: var(--desktop-small-txt-font-weight);
+    letter-spacing: var(--desktop-small-txt-letter-spacing);
+    line-height: var(--desktop-small-txt-line-height);
+    position: relative;
+    text-align: center;
+}
+
+.form .icon-cross {
+    height: 16px !important;
+    right: 16px !important;
+    position: absolute !important;
+    top: 16px !important;
+    width: 16px !important;
+}

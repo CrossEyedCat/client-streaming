@@ -1,0 +1,34 @@
+.btn-small {
+    align-items: center;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 7px;
+    justify-content: center;
+    padding: 6px 16px;
+    position: relative;
+}
+.btn-small .text-wrapper {
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.btn-small.fill {
+    background-color: var(--violet-1);
+}
+.btn-small.outline {
+    border: 1px solid;
+    border-color: var(--violet-1);
+}
+.btn-small.fill .text-wrapper {
+    color: var(--wight);
+}
+.btn-small.outline .text-wrapper {
+    color: var(--violet-1);
+}
