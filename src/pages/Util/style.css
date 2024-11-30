@@ -1,0 +1,275 @@
+.Util {
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Util .div-2 {
+    background-color: var(--grey-1);
+    height: 1600px;
+    position: relative;
+    width: 1920px;
+}
+
+.Util .icon-send-square-1 {
+    height: 40px !important;
+    left: 1491px !important;
+    position: absolute !important;
+    top: 100px !important;
+    width: 40px !important;
+}
+.Util .footer-instance {
+    left: 0 !important;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+.Util .btn-big {
+    align-items: center;
+    background-color: var(--violet-1);
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 7px;
+    justify-content: center;
+    left: 1150px;
+    padding: 8px 24px 10px;
+    position: absolute;
+    top: 190px;
+}
+.Util .btn-big3{
+    align-items: center;
+    background-color: var(--violet-1);
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 7px;
+    justify-content: center;
+    left: 1150px;
+    padding: 8px 24px 10px;
+    color: var(--wight);
+    width: 327px;
+}
+.Util .text-wrapper-3{
+    color: var(--wight);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+}
+.Util .text-wrapper-7 {
+    color: var(--wight);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.Util .form {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--grey-4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    left: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 190px;
+    width: 374px;
+}
+.Util .form-stream{
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--grey-4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    left: 700px;
+    padding: 30px;
+    position: absolute;
+    top: 800px;
+    width: 374px;
+}
+.Util .text-wrapper-8 {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-h5-font-family);
+    font-size: var(--desktop-h5-font-size);
+    font-style: var(--desktop-h5-font-style);
+    font-weight: var(--desktop-h5-font-weight);
+    letter-spacing: var(--desktop-h5-letter-spacing);
+    line-height: var(--desktop-h5-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.Util .fild {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 100%;
+}
+
+.Util .text-wrapper-9 {
+    align-self: stretch;
+    color: var(--grey-5);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.Util .fild-2 {
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    height: 40px;
+    position: relative;
+}
+
+.Util .div-wrapper {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--grey-3);
+    border-radius: var(--dental-radius-radius-10);
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    padding: 6px 20px 10px;
+    position: relative;
+}
+
+.Util .text-wrapper-10 {
+    color: var(--text);
+    flex: 1;
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    height: 22px;
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: relative;
+    white-space: nowrap;
+}
+
+.Util .group {
+    height: 48px;
+    left: 1284px;
+    position: absolute;
+    top: 192px;
+    width: 351px;
+}
+
+.Util .overlap-group {
+    height: 48px;
+    position: relative;
+    width: 349px;
+}
+
+.Util .p {
+    color: #ff1616;
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    left: 0;
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: absolute;
+    top: 0;
+    width: 349px;
+}
+
+.Util .line {
+    height: 14px;
+    left: 286px;
+    object-fit: cover;
+    position: absolute;
+    top: 33px;
+    width: 7px;
+}
+
+.Util .text-wrapper-11 {
+    color: var(--text);
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    left: 700px;
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    position: absolute;
+    top: 113px;
+    white-space: nowrap;
+}
+
+.Util .sidebar {
+    align-items: flex-start;
+    background-color: var(--grey-3);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 390px;
+    padding: 10px;
+    position: absolute;
+    top: 114px;
+    width: 277px;
+}
+
+.Util .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.Util .sidebar-item-instance {
+    align-self: stretch !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+}
+
+.Util .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+}
+
+.Util .line-2 {
+    align-self: stretch;
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}
+
+.Util .header-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+}

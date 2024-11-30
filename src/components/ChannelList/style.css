@@ -1,0 +1,13 @@
+.channels-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Макс. 3 колонки */
+    gap: 16px; /* Расстояние между карточками */
+    justify-content: center; /* Центровка карточек */
+    padding: 16px; /* Отступы */
+}
+
+.channels-container .frame-8 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ограничение на 3 колонки */
+    gap: 16px;
+}

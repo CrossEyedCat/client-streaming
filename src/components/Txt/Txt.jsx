@@ -12,7 +12,7 @@ export const Txt = ({
                         text = "MOST STREAM предлагает двустороннюю аудио-видеосвязь в реальном времени, чтобы сделать коммуникацию быстрой и простой.",
                     }) => {
     return (
-        <div className={`txt ${className}`}>
+        <div className={`Txt ${className}`}>
             <p className="MOST-STREAM">{text}</p>
         </div>
     );

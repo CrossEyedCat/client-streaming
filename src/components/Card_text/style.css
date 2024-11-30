@@ -1,4 +1,4 @@
-.card {
+.card_text {
     align-items: flex-start;
     background-color: var(--wight);
     border: 1px solid;
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.card .text-wrapper-5 {
+.card_text .text-wrapper-5 {
     align-self: stretch;
     color: var(--text);
     font-family: var(--desktop-h5-font-family);
@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.card .p {
+.card_text .p {
     align-self: stretch;
     color: var(--text);
     font-family: var(--desktop-paragraf-font-family);

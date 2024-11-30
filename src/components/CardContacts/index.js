@@ -1,0 +1,1 @@
+export { CardContacts } from "./CardContacts";

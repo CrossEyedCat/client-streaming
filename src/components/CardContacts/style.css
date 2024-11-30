@@ -1,0 +1,53 @@
+.CardContacts {
+    align-items: flex-start;
+    background-color: var(--grey-4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+    width: 314px;
+}
+
+.CardContacts .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.CardContacts .text-wrapper-4 {
+    color: var(--violet-1);
+    font-family: var(--desktop-h4-font-family);
+    font-size: var(--desktop-h4-font-size);
+    font-style: var(--desktop-h4-font-style);
+    font-weight: var(--desktop-h4-font-weight);
+    letter-spacing: var(--desktop-h4-letter-spacing);
+    line-height: var(--desktop-h4-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.CardContacts .element {
+    align-self: stretch;
+    color: var(--text);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: relative;
+}
+
+.CardContacts .icon-home {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+}

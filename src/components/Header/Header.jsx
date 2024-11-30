@@ -8,31 +8,49 @@ import { IconSearch } from "../../icons/IconSearch";
 import { BtnSmall } from "../BtnSmall";
 import "./style.css";
 import {GlobalStateContext} from "../../states/GlobalStateContext";
-import {SearchHeader} from "../SearchHeader";
+import {useLocation, useNavigate} from "react-router-dom";
 
 export const Header = ({ className }) => {
     const { isSearche, toggleSearche } = useContext(GlobalStateContext);
+    const navigate = useNavigate();
+    const location = useLocation(); // Получаем текущий путь
+    const isRoot = location.pathname === "/"; // Проверяем, находится ли пользователь на главной странице
+    const goToContactsPage = () => {
+        navigate("/contacts");
+    };
+    const goToMain = () => {
+        navigate("/");
+    };
+    const goToFaq = () => {
+        navigate("/FAQ");
+    };
+    const goToAboutUs = () => {
+        navigate("/aboutus");
+    };
     return (
         <div className={`header ${className}`}>
             <div className="frame">
-                <img
+                <img onClick={goToMain}
                     className="logo"
                     alt="Logo"
                     src="https://c.animaapp.com/KIcIFpDL/img/logo-3.svg"
                 />
 
                 <div className="nav">
-                    <div className="div">О нас</div>
+                    <div className="div" onClick={goToAboutUs}>О нас</div>
 
-                    <div className="div">Вопросы и ответы</div>
+                    <div className="div" onClick={goToFaq}>Вопросы и ответы</div>
 
-                    <div className="div">Контакты</div>
+                    <div className="div" onClick={goToContactsPage}>Контакты</div>
                 </div>
 
                 <div className="btns">
-                    <div className="icon-search-wrapper" onClick={toggleSearche}>
-                        <IconSearch className="icon-search" color="white" />
-                    </div>
+                    {isRoot && ( // Показываем только на корневой странице
+                        <div className="icon-search-wrapper" onClick={toggleSearche}>
+                            <IconSearch className="icon-search" color="white" />
+                        </div>
+                    )}
+
 
                     <BtnSmall className="btn" style="fill" />
                 </div>

@@ -1,0 +1,1 @@
+export { IconVolumeHigh } from "./IconVolumeHigh";

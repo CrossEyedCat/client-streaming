@@ -12,7 +12,7 @@ export const DivWrapper = ({
                                text = "Эксперты утверждают, что сложившаяся структура организации расставила все точки над i",
                            }) => {
     return (
-        <div className={`div-wrapper ${className}`}>
+        <div className={`div-wrapper1 ${className}`}>
             <div className="i-wrapper">
                 <p className="i">{text}</p>
             </div>

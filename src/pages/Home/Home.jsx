@@ -13,15 +13,17 @@ import {Box} from "../../components/Box";
 import {FormLogIn} from "../../components/FormLogIn";
 import {FormRecover} from "../../components/FormRecover";
 import {SearchHeader} from "../../components/SearchHeader";
+import ChannelList from "../../components/ChannelList/ChannelList";
 
 export const Home = () => {
     const { isLoggedIn, toggleLoginState, isLogIn, isRec, isSearche} = useContext(GlobalStateContext);
+    const user = localStorage.getItem("user");
     return (
         <div className="screen">
             <div className="div-3">
                 {!isSearche && <Header className="header-instance" />}
                 {isSearche && <SearchHeader className="header-instance" />}
-                {!isSearche &&<div>
+                {!isSearche &&  !user &&<div>
                 <div className="element-hero">
                     <div className="frame-4">
                         <div className="txt-wrapper">
@@ -176,48 +178,9 @@ export const Home = () => {
                     </div>
                 </div>
                 </div>}
-                {isSearche && <div className="frame-7">
-                    <div className="frame-8">
-                        <Card className="card-instance" frameClassName="design-component-instance-node"/>
-                        <Card
-                            className="card-instance"
-                            frameClassName="design-component-instance-node"
-                            image="https://c.animaapp.com/KIcIFpDL/img/image-2@2x.png"
-                            text="100"
-                            text1="Давайте разбираться: солнечных дней всё меньше"
-                        />
-                        <Card
-                            className="card-3"
-                            frameClassName="design-component-instance-node"
-                            headClassName="card-2"
-                            image="https://c.animaapp.com/KIcIFpDL/img/image-3@2x.png"
-                            text="1200"
-                            text1="Все чаще появляется информация о том, что семантический разбор внешних противодействий определил дальнейшее развитие"
-                        />
-                    </div>
-
-                    <div className="frame-9">
-                        <Card
-                            className="card-instance"
-                            frameClassName="design-component-instance-node"
-                            image="https://c.animaapp.com/KIcIFpDL/img/image-4@2x.png"
-                            text="1200"
-                            text1="Спикеры палаты госдумы негодуют"
-                        />
-                        <Card
-                            frameClassName="design-component-instance-node"
-                            image="https://c.animaapp.com/KIcIFpDL/img/image-5@2x.png"
-                            text="1200"
-                            text1="Давайте разбираться: солнечных дней всё меньше"
-                        />
-                        <Card
-                            frameClassName="design-component-instance-node"
-                            image="https://c.animaapp.com/KIcIFpDL/img/image-6@2x.png"
-                            text="1200"
-                            text1="Граница обучения кадров расставила все точки над i"
-                        />
-                    </div>
-                </div>}
+                {(isSearche || user)  && <div className="frame-7000">
+                    <ChannelList/>
+                    </div>}
                 <Footer className="footer-instance" />
 
             </div>

@@ -3,9 +3,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
 }
-
+.Watch .form {
+    position: fixed;
+    right: calc(50% - 222.5px);
+    top: 184px;
+}
 .Watch .div-2 {
     background-color: var(--grey-1);
     height: 2240px;
@@ -16,7 +19,7 @@
 .Watch .footer-instance {
     left: 0 !important;
     position: absolute !important;
-    top: 1926px !important;
+    top: 1980px !important;
 }
 
 .Watch .icon-send-square-1 {
@@ -51,7 +54,9 @@
     position: absolute;
     top: 0;
 }
+.Watch .upsetText{
 
+}
 .Watch .btn-big {
     align-items: center;
     background-color: var(--violet-1);
@@ -76,19 +81,20 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    height: 24px;
 }
 
 .Watch .div-wrapper {
-    align-items: center;
-    border: 1px solid;
-    border-color: var(--violet-1);
-    border-radius: 8px;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 7px;
-    justify-content: center;
-    padding: 8px 24px 10px;
-    position: relative;
+    align-items: center !important;
+    border: 1px solid !important;
+    border-color: var(--violet-1) !important;
+    border-radius: 8px !important;
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    gap: 7px !important;
+    justify-content: center !important;
+    padding: 8px 24px 10px !important;
+    position: relative !important;
 }
 
 .Watch .text-wrapper-11 {
@@ -103,6 +109,7 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    height: 24px;
 }
 
 .Watch .icon-heart-wrapper {
@@ -112,11 +119,11 @@
     border-radius: 8px;
     display: flex;
     gap: 7px;
-    height: 42px;
+    height: 24px;
     justify-content: center;
-    padding: 6px 16px;
+    padding: 8px 8px;
     position: relative;
-    width: 42px;
+    width: 24px;
 }
 
 .Watch .icon-instance-node-2 {
@@ -172,7 +179,6 @@
     height: 100px;
     padding: 6px 20px 10px;
     position: relative;
-    width: 100%;
 }
 
 .Watch .text-wrapper-13 {
@@ -228,7 +234,6 @@
 .Watch .design-component-instance-node {
     align-self: stretch !important;
     flex: 0 0 auto !important;
-    width: 100% !important;
 }
 
 .Watch .btn-big-2 {
@@ -242,7 +247,6 @@
     justify-content: center;
     padding: 8px 24px 10px;
     position: relative;
-    width: 100%;
 }
 
 .Watch .text-wrapper-15 {
@@ -481,5 +485,5 @@
 .Watch .video-instance {
     left: 389px !important;
     position: absolute !important;
-    top: 114px !important;
+    top: 85px !important;
 }

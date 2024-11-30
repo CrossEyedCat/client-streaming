@@ -1,0 +1,34 @@
+.TxtAboutUs {
+    align-items: flex-start;
+    background-color: var(--wight);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+}
+
+.TxtAboutUs .element {
+    color: var(--text);
+    font-family: "Manrope", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 56.0px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.TxtAboutUs .p {
+    align-self: stretch;
+    color: var(--text);
+    font-family: "Manrope", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23.8px;
+    position: relative;
+}

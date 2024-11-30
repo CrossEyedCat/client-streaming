@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { IconEye } from "../../icons/IconEye";
 import "./style.css";
+import {useNavigate} from "react-router-dom";
 
 export const Card = ({
                          className,
@@ -16,8 +17,13 @@ export const Card = ({
                          text1 = "Спикеры палаты госдумы негодуют",
                          headClassName,
                      }) => {
+    const navigate = useNavigate();
+
+    const goToWatchPage = () => {
+        navigate("/watch");
+    };
     return (
-        <div className={`card ${className}`}>
+        <div onClick={goToWatchPage} className={`card ${className}`}>
             <img className="image" alt="Image" src={image} />
 
             <div className={`head ${headClassName}`}>

@@ -1,0 +1,260 @@
+.Contacts {
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.Contacts .form {
+    position: fixed;
+    right: calc(50% - 222.5px);
+    top: 184px;
+}
+.Contacts .div-2 {
+    background-color: var(--grey-1);
+    height: 1593px;
+    position: relative;
+    width: 1920px;
+}
+
+.Contacts .footer-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 1279px !important;
+}
+
+.Contacts .icon-send-square-1 {
+    height: 40px !important;
+    left: 1491px !important;
+    position: absolute !important;
+    top: 100px !important;
+    width: 40px !important;
+}
+
+.Contacts .element-feedback {
+    background-color: var(--grey-4);
+    border-radius: 24px;
+    height: 362px;
+    left: 389px;
+    overflow: hidden;
+    position: absolute;
+    top: 837px;
+    width: 1142px;
+}
+
+.Contacts .overlap {
+    height: 362px;
+    left: 41px;
+    position: relative;
+    width: 1101px;
+}
+
+.Contacts .overlap-group {
+    height: 362px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1101px;
+}
+
+
+.Contacts .filds {
+    align-items: center;
+    border-radius: 24px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 204px;
+}
+
+.Contacts .fild10 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 278.5px;
+}
+
+.Contacts .div-wrapper {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--wight);
+    border-radius: var(--dental-radius-radius-10);
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    padding: 6px 20px 10px;
+    position: relative;
+}
+
+
+.Contacts .btn-big10 {
+    align-items: center;
+    background-color: var(--violet-1);
+    border-radius: 8px;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    padding: 12.5px 24px 16.7px;
+    position: relative;
+    width: 165px;
+}
+
+.Contacts .text-wrapper-8 {
+    color: var(--wight);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: 20px;
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.Contacts .p1 {
+    color: var(--text);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
+    left: 315px;
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    position: absolute;
+    text-align: center;
+    top: 129px;
+    width: 431px;
+}
+
+.Contacts .txt {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 306px;
+    width: 407px;
+}
+
+.Contacts .overlap-group-2 {
+    height: 34px;
+    position: relative;
+    width: 405px;
+}
+
+.Contacts .supporting-text {
+    color: #a8aab1;
+    font-family: var(--desktop-small-txt-font-family);
+    font-size: var(--desktop-small-txt-font-size);
+    font-style: var(--desktop-small-txt-font-style);
+    font-weight: var(--desktop-small-txt-font-weight);
+    left: 0;
+    letter-spacing: var(--desktop-small-txt-letter-spacing);
+    line-height: var(--desktop-small-txt-line-height);
+    position: absolute;
+    top: 0;
+    width: 405px;
+}
+
+
+
+
+.Contacts .element-contacts {
+    height: 643px;
+    left: 389px;
+    position: absolute;
+    top: 114px;
+    width: 1144px;
+}
+
+.Contacts .map {
+    height: 382px;
+    left: 1px;
+    position: absolute;
+    top: 261px;
+    width: 1141px;
+    border-radius: 20px;
+}
+
+.Contacts .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 76px;
+}
+.Contacts .text-wrapper-100 {
+    color: var(--text);
+    font-family: var(--desktop-h2-font-family);
+    font-size: var(--desktop-h2-font-size);
+    font-style: var(--desktop-h2-font-style);
+    font-weight: var(--desktop-h2-font-weight);
+    left: 403px;
+    letter-spacing: var(--desktop-h2-letter-spacing);
+    line-height: var(--desktop-h2-line-height);
+    position: absolute;
+    text-align: center;
+    top: 79px;
+    white-space: nowrap;
+}
+.Contacts .card-instance {
+    background-color: var(--violet-1) !important;
+}
+
+.Contacts .design-component-instance-node {
+    color: var(--wight) !important;
+}
+
+.Contacts .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+}
+
+.Contacts .text-wrapper-10 {
+    color: var(--text);
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    left: 428px;
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.Contacts .overlap-2 {
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+}
+
+.Contacts .line-2 {
+    height: 3px;
+    left: 1077px;
+    position: absolute;
+    top: 58px;
+    width: 161px;
+    z-index: 1;
+}
+
+.Contacts .header-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+.Contacts .logo-2 {
+    position: absolute;
+    right: 0;
+}

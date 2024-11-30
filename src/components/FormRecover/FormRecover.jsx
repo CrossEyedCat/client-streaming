@@ -1,9 +1,28 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import "./style.css";
 import {IconCross} from "../../icons/IconCross";
 import {GlobalStateContext} from "../../states/GlobalStateContext";
+import {useChangePassword} from "../../shared/hooks";
 export const FormRecover = () => {
     const { goOut, recOpen} = useContext(GlobalStateContext);
+    const [formState , setFormState]  = useState({
+        password:{
+            isValid: false,
+            showError: false,
+            value: "",
+        },
+        newPassword:{
+            isValid: false,
+            showError: false,
+            value: "",
+        }
+    });
+    const { changePassword } = useChangePassword();
+    const handleFormSubmit = (e) =>{
+        e.preventDefault();
+
+        changePassword(formState.password.value, formState.newPassword.value);
+    }
     return (
         <div className="form">
             <div className="frame1">
@@ -17,7 +36,7 @@ export const FormRecover = () => {
                 <div className="fild-21" />
             </div>
             <div className="btn-big1">
-                <div className="text-wrapper-21">Отправить пароль</div>
+                <div className="text-wrapper-21" onClick={handleFormSubmit}>Отправить пароль</div>
             </div>
             <div onClick={goOut}>
             <IconCross className="icon-cross1" />

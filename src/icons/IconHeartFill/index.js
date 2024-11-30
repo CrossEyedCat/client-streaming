@@ -1,0 +1,1 @@
+export { IconHeartFill } from "./IconHeartFill";

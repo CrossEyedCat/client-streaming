@@ -8,7 +8,7 @@
 .header .frame {
     align-items: center;
     display: flex;
-    gap: 211px;
+    justify-content: space-between;
     left: 389px;
     position: relative;
     top: 21px;
@@ -31,7 +31,7 @@
 
 .header .div {
     color: var(--text);
-    font-family: "Manrope", Helvetica;
+    font-family: var(--desktop-paragraf-font-family);
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 0;

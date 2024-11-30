@@ -1,0 +1,1 @@
+export {IconDocumentFill } from "./IconDocumentFill";
