@@ -2,7 +2,14 @@
     background-color: var(--grey-1);
     box-shadow: 0px 4px 8px #0000000d;
     height: 74px;
-    width: 1920px;
+    width: 100%;
+    letter-spacing: var(--desktop-paragraf-letter-spacing);
+    line-height: var(--desktop-paragraf-line-height);
+    color: var(--grey-5);
+    font-family: var(--desktop-paragraf-font-family);
+    font-size: var(--desktop-paragraf-font-size);
+    font-style: var(--desktop-paragraf-font-style);
+    font-weight: var(--desktop-paragraf-font-weight);
 }
 
 .headerSearch .overlap-group {
@@ -10,10 +17,11 @@
     border-color: var(--grey-4) !important;
     border-radius: 8px !important;
     height: 36px !important;
-    left: 581px !important;
+    left: calc(50% - 452px) !important;
     position: absolute !important;
     top: 22px !important;
     width: 904px !important;
+    padding-left: 10px;
 }
 
 .headerSearch .text-wrapper {
@@ -36,8 +44,9 @@
     border-radius: 8px;
     display: flex;
     gap: 7px;
+    top: 24px;
     justify-content: center;
-    left: 868px;
+    left: calc(50% + 470px);
     padding: 6px 16px;
     position: absolute;
 
@@ -54,7 +63,7 @@
 
 .headerSearch .logo {
     height: 38px;
-    left: 389px;
+    left: calc(50% - 620px);
     position: absolute;
     top: 21px;
     width: 148px;
@@ -62,7 +71,7 @@
 
 .headerSearch .icon-cross {
     height: 16px !important;
-    left: 1515px !important;
+    left: calc(50% + 530px) !important;
     position: absolute !important;
     top: 32px !important;
     width: 16px !important;

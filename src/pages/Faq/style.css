@@ -1,6 +1,6 @@
 .faq {
     background-color: #fefefe;
-    width: 1920px;
+    width: 100%;
 
 }
 .faq .form {
@@ -45,7 +45,7 @@
     font-size: var(--desktop-h1-font-size);
     font-style: var(--desktop-h1-font-style);
     font-weight: var(--desktop-h1-font-weight);
-    left: 778px;
+    left: calc(50% - 190px);
     letter-spacing: var(--desktop-h1-letter-spacing);
     line-height: var(--desktop-h1-line-height);
     position: absolute;
@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    left: 485px;
+    left: calc(50% - 506px);
     position: absolute;
     top: 224px;
     width: 950px;
@@ -190,7 +190,7 @@
     font-size: var(--desktop-paragraf-font-size);
     font-style: var(--desktop-paragraf-font-style);
     font-weight: var(--desktop-paragraf-font-weight);
-    left: 837px;
+    left: calc(50% - 122px);
     letter-spacing: var(--desktop-paragraf-letter-spacing);
     line-height: var(--desktop-paragraf-line-height);
     position: absolute;

@@ -1,11 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-hot-toast"; // Импортируем react-hot-toast
 import { register as registerRequest } from "../../api";
-import toast from "react-hot-toast";
 
 export const useRegister = () => {
   const [isLoading, setIsLoading] = useState(false);
-
   const navigate = useNavigate();
 
   const register = async (email, password, username) => {
@@ -20,15 +19,19 @@ export const useRegister = () => {
     setIsLoading(false);
 
     if (response.error) {
-      return toast.error(
-        response.exception?.response?.data ||
-          "Error occurred while signing up. Please try again"
+      toast.error(
+          response.exception?.response?.data ||
+          "Error occurred while signing up. Please try again",
+          { duration: 3000 }
       );
+      return;
     }
 
     const { userDetails } = response.data;
 
     localStorage.setItem("user", JSON.stringify(userDetails));
+
+    toast.success("Registration successful!", { duration: 3000 });
 
     navigate("/");
   };

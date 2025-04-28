@@ -11,7 +11,7 @@
     position: relative;
     width: 374px;
     top: 190px;
-    left: 1150px;
+    left: calc( 1150px - 910px + 50%);
 
 }
 

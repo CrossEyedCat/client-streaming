@@ -11,17 +11,19 @@ export const BtnSmall = ({ icon = false, style, className }) => {
     const [isDroplistVisible, setDroplistVisible] = useState(false);
 
     const handleMouseEnter = () => {
-        if(user){setDroplistVisible(!isDroplistVisible);}
+        if(user){setDroplistVisible(true);}
+
     };
 
     const handleMouseLeave = () => {
-        setDroplistVisible(false);
+        if(user){setDroplistVisible(false);}
     };
 
     return (
         <div
             className="btn-small"
-            onClick={handleMouseEnter}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
         >
             <div className={`btn-small ${style} ${className}`}>
                 <IconProfileCircle />

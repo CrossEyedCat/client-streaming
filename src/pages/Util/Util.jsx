@@ -16,8 +16,14 @@ import { SidebarItem } from "./SidebarItem";
 import { ResetPassword } from "../../components/ResetPassword";
 import { getChannelSettings, updateChannelSettings } from "../../api";
 import { toast } from "react-hot-toast";
-
+import {logout} from "../../shared/utils";
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+import DOMPurify from "dompurify";
+import {useNavigate} from "react-router-dom";
 export const Util = () => {
+    const navigate = useNavigate();
+    const isNotNullish = (value) => value !== null && value !== undefined;
     const { isLoggedIn, toggleLoginState, isLogIn, isRec, isSearche } = useContext(GlobalStateContext);
     const [utilChange, setUtilChange] = useState(false);
     const [isFetching, setIsFetching] = useState(true);
@@ -28,7 +34,12 @@ export const Util = () => {
         description: "",
         streamKey: "",
     });
-
+    const goToUtil = () => {
+        navigate("/util");
+    };
+    const goToFollowed  = () => {
+        navigate("/followed");
+    };
     // Fetch channel settings
     const fetchChannelSettings = async () => {
         setIsFetching(true);
@@ -75,13 +86,21 @@ export const Util = () => {
     };
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
+        if (typeof e === "string") {
+            // Это вызов из ReactQuill, обновляем только описание
+            setFormData((prevData) => ({
+                ...prevData,
+                description: e,
+            }));
+        } else {
+            // Это вызов из обычного input
+            const { name, value } = e.target;
+            setFormData((prevData) => ({
+                ...prevData,
+                [name]: value,
+            }));
+        }
     };
-
     return (
         <div className="Util">
             <div className="div-2">
@@ -128,13 +147,8 @@ export const Util = () => {
 
                         <div className="fild">
                             <div className="text-wrapper-9">Описание</div>
-                            <input
-                                className="fild-2"
-                                name="description"
-                                value={formData.description}
-                                onChange={handleInputChange}
-                                disabled={!utilChange}
-                            />
+                            <ReactQuill theme="snow" value={formData.description} onChange={handleInputChange} readOnly={!utilChange} />
+
                         </div>
                         <div className="fild">
                             <div className="text-wrapper-9">Url превью</div>
@@ -169,33 +183,40 @@ export const Util = () => {
 
                 <div className="sidebar">
                     <div className="frame-2">
-                        <SidebarItem
-                            className="sidebar-item-instance"
-                            status="activ"
-                            text="Настройки"
-                        />
-                        <SidebarItem
-                            className="sidebar-item-instance"
-                            icon={
-                                <IconHeartFill1
-                                    className="icon-instance-node"
-                                    color="#9EA0A5"
-                                />
-                            }
-                            status="default"
-                            text="Избранное"
-                        />
-                        <SidebarItem
-                            className="sidebar-item-instance"
-                            icon={
-                                <IconDocumentFill
-                                    className="icon-instance-node"
-                                    color="#9EA0A5"
-                                />
-                            }
-                            status="default"
-                            text="История просмотров"
-                        />
+                        <div onClick={goToUtil}>
+                            <SidebarItem
+                                className="sidebar-item-instance"
+                                status="activ"
+                                text="Настройки"
+                            />
+                        </div>
+                        <div onClick={goToFollowed}>
+                            <SidebarItem
+                                className="sidebar-item-instance"
+                                icon={
+                                    <IconHeartFill1
+                                        className="icon-instance-node"
+                                        color="#9EA0A5"
+                                    />
+                                }
+                                status="default"
+                                text="Избранное"
+
+                            />
+                        </div>
+                        {/*<div>
+                            <SidebarItem
+                                className="sidebar-item-instance"
+                                icon={
+                                    <IconDocumentFill
+                                        className="icon-instance-node"
+                                        color="#9EA0A5"
+                                    />
+                                }
+                                status="default"
+                                text="История просмотров"
+                            />
+                        </div>*/}
                     </div>
 
                     <img
@@ -203,13 +224,14 @@ export const Util = () => {
                         alt="Line"
                         src="https://c.animaapp.com/Sriqqs9p/img/line-1.svg"
                     />
-
-                    <SidebarItem
-                        className="sidebar-item-instance"
-                        icon={<IconLogout className="icon-instance-node" />}
-                        status="default"
-                        text="Выйти"
-                    />
+                    <div onClick={logout}>
+                        <SidebarItem
+                            className="sidebar-item-instance"
+                            icon={<IconLogout className="icon-instance-node" />}
+                            status="default"
+                            text="Выйти"
+                        />
+                    </div>
                 </div>
 
                 {!isSearche && <Header className="header-instance" />}

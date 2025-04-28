@@ -1,18 +1,31 @@
-import React, { useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import { useChannels } from "../../shared/hooks"; // Подключение вашего хука
 import { Card } from "../Card";
 import "./style.css";
 import {useNavigate} from "react-router-dom";
 import {useStore} from "../../store";
-const ChannelList = ({ isLoggedIn }) => {
-    const { getChannels, allChannels, followedChannels, isFetching } = useChannels();
+import {getFollowedChannels} from "../../api";
+const FollowedChannelList = ({ isLoggedIn }) => {
+    const [followedChannels, setFollowedChannels] = useState([]);
     const { findMessage } = useStore();
+    const [isFetching, setIsFetching] = useState(true);
     const navigate = useNavigate();
     useEffect(() => {
-        getChannels(isLoggedIn);
+        const fetchFollowedChannels = async () => {
+            setIsFetching(true);
+            try {
+                const channels = await getFollowedChannels(isLoggedIn);
 
-    }, [isLoggedIn, getChannels]);
+                setFollowedChannels(channels.data.followedChannels);
+            } catch (error) {
+                console.error("Error fetching followed channels:", error);
+            } finally {
+                setIsFetching(false);
+            }
+        };
 
+        fetchFollowedChannels();
+    }, [isLoggedIn]);
     if (isFetching) {
         return <div>Loading channels...</div>;
     }
@@ -20,18 +33,16 @@ const ChannelList = ({ isLoggedIn }) => {
     const handleCardClick = (channelId) => {
         navigate(`/watch/${channelId}`); // Переход на страницу
     };
-    // Выбираем каналы для отображения в зависимости от состояния авторизации
-    const channelsToRender = isLoggedIn ? followedChannels : allChannels;
 
     // Фильтрация каналов по findMessage
-    const filteredChannels = channelsToRender.filter((channel) => {
+    const filteredChannels = followedChannels.filter((channel) => {
         const lowercasedSearchText = findMessage?.toLowerCase() || '';
         return (
             channel.title?.toLowerCase().includes(lowercasedSearchText) ||
             channel.description?.toLowerCase().includes(lowercasedSearchText)
         );
     });
-    console.log("filteredChannels",filteredChannels)
+    console.log("followedChannels",filteredChannels);
     return (
         <div className="channels-container">
             {filteredChannels &&
@@ -42,7 +53,7 @@ const ChannelList = ({ isLoggedIn }) => {
                         className="card-wrapper" // Для управления стилями карточки при наведении
                     >
                         <Card
-                            className="card-instance"
+
                             frameClassName="design-component-instance-node"
                             image={channel.avatarUrl || "https://via.placeholder.com/150"}
                             text={channel.viewersCount || "0"}
@@ -54,4 +65,4 @@ const ChannelList = ({ isLoggedIn }) => {
     );
 };
 
-export default ChannelList;
+export default FollowedChannelList;

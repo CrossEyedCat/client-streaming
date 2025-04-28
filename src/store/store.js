@@ -6,5 +6,7 @@ export const useStore = create((set) =>({
         channelId: null,
         messages: [],
     },
+    findMessage: null,
     setChatHistory : ( chatHistory ) => set({ chatHistory }),
+    setFindMessage : (findMessage) => set({ findMessage }),
 }));

@@ -1,25 +1,28 @@
-import { useState } from "react"
-import { getChannelDetails as getChannelDetailsRequest } from "../../api"
-import toast from "react-hot-toast"
+import { useState } from "react";
+import { toast } from "react-hot-toast";
+import { getChannelDetails as getChannelDetailsRequest } from "../../api";
 
-export const useChannelDetails = () =>{
-    const [ channelDetails , setChannelDetails ] = useState(null)
+export const useChannelDetails = () => {
+    const [channelDetails, setChannelDetails] = useState(null);
 
-    const getChannelDetails =  async(id) =>{
+    const getChannelDetails = async (id) => {
         const responseData = await getChannelDetailsRequest(id);
 
-        if(responseData.error){
-            return toast.error(
+        if (responseData.error) {
+            toast.error(
                 responseData.exception?.response?.data ||
-                'Error occurred while fetching channel details'
+                "Error occurred while fetching channel details",
+                { duration: 3000 }
             );
+            return;
         }
+
         setChannelDetails(responseData.data);
     };
 
-    return{
+    return {
         channelDetails,
         isFetching: !channelDetails,
         getChannelDetails,
-    }
-}
+    };
+};

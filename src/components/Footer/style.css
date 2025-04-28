@@ -2,12 +2,12 @@
     background-color: var(--text);
     height: 314px;
     position: relative;
-    width: 1920px;
+    width: 100%;
 }
 
 .footer .logo-2 {
     height: 73px;
-    left: 389px;
+    left: calc(389 / 1820 *100%);
     position: absolute;
     top: 80px;
     width: 288px;
@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    left: 965px;
+    left: calc(965 / 1820 *100%);
     opacity: 0.7;
     position: absolute;
     top: 119px;
@@ -54,7 +54,7 @@
     font-size: var(--desktop-small-txt-font-size);
     font-style: var(--desktop-small-txt-font-style);
     font-weight: var(--desktop-small-txt-font-weight);
-    left: 1334px;
+    left: calc(1334 / 1820 *100%);
     letter-spacing: var(--desktop-small-txt-letter-spacing);
     line-height: var(--desktop-small-txt-line-height);
     opacity: 0.5;
@@ -69,7 +69,7 @@
     font-size: var(--desktop-small-txt-font-size);
     font-style: var(--desktop-small-txt-font-style);
     font-weight: var(--desktop-small-txt-font-weight);
-    left: 389px;
+    left: calc(389 / 1820 *100%);
     letter-spacing: var(--desktop-small-txt-letter-spacing);
     line-height: var(--desktop-small-txt-line-height);
     opacity: 0.5;
@@ -80,7 +80,7 @@
 
 .footer .icon-send-square {
     height: 40px !important;
-    left: 1491px !important;
+    left: calc(1491 / 1820 *100%)!important;
     position: absolute !important;
     top: 100px !important;
     width: 40px !important;

@@ -1,12 +1,14 @@
 import io from 'socket.io-client'
 import { useStore } from '../store';
 
+
 let socket;
 
 export const connectWithSocketServer = () =>{
     socket = io('http://localhost:5002')
 
     socket.on('connect', ()=>{
+        console.log("connected")
     })
 
     socket.on('chat-history', (chatHistory) => {
@@ -28,10 +30,11 @@ export const connectWithSocketServer = () =>{
             ]
         })
     })
-    
+
 };
 
 export const getChatHistory = (channelId) =>{
+    console.log("chat-history1", channelId);
     socket.emit('chat-history',channelId)
 }
 

@@ -24,6 +24,7 @@ export const useChatHistory = (channelId)=>{
     return{
         messages: (chatHistory?.channelId === channelId) ? chatHistory.messages : [],
         sendMessage,
+        viewersCount: (chatHistory?.channelId === channelId) ?chatHistory.viewersCount:""
     };
 };
 

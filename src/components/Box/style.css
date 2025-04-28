@@ -1,6 +1,5 @@
 .box {
-    height: 1080px;
-    width: 1920px;
+    height: 100vh;
 }
 
 .box .rectangle {
@@ -9,5 +8,5 @@
     left: 0;
     position: fixed;
     top: 0;
-    width: 1920px;
+    width: 100%;
 }

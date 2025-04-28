@@ -14,7 +14,7 @@
     background-color: var(--grey-1);
     height: 1593px;
     position: relative;
-    width: 1920px;
+    width: 100%;
 }
 
 .Contacts .footer-instance {
@@ -35,7 +35,7 @@
     background-color: var(--grey-4);
     border-radius: 24px;
     height: 362px;
-    left: 389px;
+    left: calc(50% - 572px);
     overflow: hidden;
     position: absolute;
     top: 837px;
@@ -166,7 +166,7 @@
 
 .Contacts .element-contacts {
     height: 643px;
-    left: 389px;
+    left: calc(50% - 572px);
     position: absolute;
     top: 114px;
     width: 1144px;
@@ -223,7 +223,7 @@
     font-size: var(--desktop-h1-font-size);
     font-style: var(--desktop-h1-font-style);
     font-weight: var(--desktop-h1-font-weight);
-    left: 428px;
+    left: calc(50% - 115px);
     letter-spacing: var(--desktop-h1-letter-spacing);
     line-height: var(--desktop-h1-line-height);
     position: absolute;

@@ -9,17 +9,15 @@
     right: calc(50% - 222.5px);
     top: 184px;
 }
-.Watch .div-2 {
-    background-color: var(--grey-1);
-    height: 2240px;
-    position: relative;
-    width: 1920px;
+.Watch .channel-video-container{
+    width: 1142px;
 }
-
 .Watch .footer-instance {
     left: 0 !important;
     position: absolute !important;
-    top: 1980px !important;
+    top: 1300px !important;
+    width:100%;
+    z-index: 3;
 }
 
 .Watch .icon-send-square-1 {
@@ -32,15 +30,15 @@
 
 .Watch .overlap {
     height: 58px;
-    left: 389px;
+
     position: absolute;
-    top: 812px;
+    top: 680px;
     width: 309px;
 }
 
 .Watch .path-2 {
     height: 23px;
-    left: 279px;
+
     position: absolute;
     top: 35px;
     width: 18px;
@@ -67,6 +65,7 @@
     justify-content: center;
     padding: 8px 24px 10px;
     position: relative;
+    z-index: 10;
 }
 
 .Watch .text-wrapper-10 {
@@ -95,6 +94,7 @@
     justify-content: center !important;
     padding: 8px 24px 10px !important;
     position: relative !important;
+    z-index: 10;
 }
 
 .Watch .text-wrapper-11 {
@@ -136,9 +136,9 @@
 
 .Watch .rewiev {
     height: 572px;
-    left: 389px;
+
     position: absolute;
-    top: 1274px;
+    top: 800px;
     width: 1142px;
 }
 
@@ -170,15 +170,17 @@
 }
 
 .Watch .fild-2 {
-    align-items: flex-start;
-    align-self: stretch;
-    background-color: var(--wight);
-    border-radius: var(--dental-radius-radius-10);
-    display: flex;
-    gap: 10px;
-    height: 100px;
-    padding: 6px 20px 10px;
-    position: relative;
+    width: 100%; /* Растягиваем textarea на всю ширину родителя */
+    height: 42px; /* Высота поля */
+    padding: 10px; /* Отступы внутри поля */
+    border: 1px solid #ccc; /* Обводка */
+    border-radius: var(--dental-radius-radius-10); /* Радиус скругления */
+    font-size: 16px; /* Размер шрифта */
+    resize: none; /* Убираем возможность изменения размера */
+    background-color: var(--wight); /* Цвет фона */
+    box-sizing: border-box; /* Учитываем padding и border в размерах */
+    outline: none; /* Убираем стандартную подсветку при фокусе */
+    overflow-y: auto; /* Добавляем прокрутку, если текста слишком много */
 }
 
 .Watch .text-wrapper-13 {
@@ -265,14 +267,14 @@
 
 .Watch .overlap-group {
     height: 37px;
-    left: 389px;
+
     position: absolute;
-    top: 772px;
+    top: 680px;
     width: 1142px;
 }
 
 .Watch .tooltip-orner {
-    left: 210px !important;
+
     position: absolute !important;
     top: 6px !important;
 }
@@ -359,7 +361,7 @@
 
 .Watch .group {
     height: 76px;
-    left: 50px;
+
     position: absolute;
     top: 827px;
     width: 153px;
@@ -392,9 +394,9 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    left: 389px;
+
     position: absolute;
-    top: 878px;
+    top: 720px;
     width: 1142px;
 }
 
@@ -483,7 +485,7 @@
 }
 
 .Watch .video-instance {
-    left: 389px !important;
+
     position: absolute !important;
     top: 85px !important;
 }

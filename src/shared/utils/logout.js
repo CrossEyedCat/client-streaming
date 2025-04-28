@@ -2,5 +2,6 @@ export const logout = () =>{
     localStorage.removeItem('user');
 
     //this will cause page refresh
-    window.location.href = '/channels';
+    window.location.href = '/';
+    window.location.reload();
 }

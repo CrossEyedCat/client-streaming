@@ -113,11 +113,6 @@ export const Faq = () => {
 
                 <div className="text-wrapper-12">Вы спрашиваете, мы отвечаем</div>
             </div>
-            <img
-                className="line-2"
-                alt="Line"
-                src="https://c.animaapp.com/zUGUnQus/img/line-1.svg"
-            />
             {!isSearche && <Header className="header-instance" />}
             {isSearche && <SearchHeader className="header-instance" />}
             {isLoggedIn && <Box />}

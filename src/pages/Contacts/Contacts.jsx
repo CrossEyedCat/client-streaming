@@ -101,11 +101,6 @@ export const Contacts = () => {
 
                     <div className="text-wrapper-10">Контакты</div>
                 </div>
-                    <img
-                        className="line-2"
-                        alt="Line"
-                        src="https://c.animaapp.com/zUGUnQus/img/line-1.svg"
-                    />
             </div>
             <Header className="header-instance" />
             {isLoggedIn && <Box />}

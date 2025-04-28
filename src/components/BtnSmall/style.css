@@ -20,7 +20,8 @@
 }
 .btn-small .droplist{
     position: absolute;
-    left:100px
+    left:75px;
+    z-index: 3;
 }
 .btn-small.fill {
     background-color: var(--violet-1);

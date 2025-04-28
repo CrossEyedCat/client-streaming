@@ -9,7 +9,7 @@
     background-color: var(--grey-1);
     height: 3550px;
     position: relative;
-    width: 1920px;
+    width: 100%;
 }
 
 .screen .header-instance {
@@ -20,7 +20,7 @@
 
 .screen .element-hero {
     height: 1005px;
-    left: 389px;
+    left: calc((100% - 1142px)/2 );
     position: absolute;
     top: 104px;
     width: 1142px;
@@ -212,10 +212,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    left: 389px;
+    left: calc((100% - 1142px)/2);
     position: absolute;
     top: 1189px;
-    width: 1142px;
+    width: 1142px ;
 }
 
 .screen .text-wrapper-13 {
@@ -252,7 +252,8 @@
     flex-direction: column;
     gap: 10px;
     position: relative;
-    left: 389px;
+    left: calc((100% - 1142px)/2 );
+    width:1142px;
 }
 .screen .frame-71 {
     align-items: flex-start;
@@ -319,7 +320,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    left: 390px;
+    left: calc((100% - 1141px)/2);
     position: absolute;
     top: 2118px;
     width: 1141px;
@@ -342,7 +343,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    left: 389px;
+    left: calc((100% - 1142px)/2);
     position: absolute;
     top: 2723px;
     width: 1142px;

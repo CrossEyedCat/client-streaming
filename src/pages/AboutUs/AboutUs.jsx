@@ -26,18 +26,18 @@ export const AboutUs = () => {
                     <div className="flexcontainer-wrapper">
                         <div className="flexcontainer">
                             <p className="text">
-                <span className="span">
-                  Компания ООО «Полесье» является структурным подразделением
-                  компании ООО «Техно Медицина», которое осуществляет разработку
-                  IT решений, а также продуктов в сфере биотехнологий. <br />
-                </span>
+                                <span className="span">
+                                  Компания ООО «Полесье» является структурным подразделением
+                                  компании ООО «Техно Медицина», которое осуществляет разработку
+                                  IT решений, а также продуктов в сфере биотехнологий. <br />
+                                </span>
                             </p>
 
                             <p className="text">
-                <span className="span">
-                  Более 10 лет делаем медицину доступнее. Наши проекты
-                  реализованы в крупных медцентрах РФ по всей России.
-                </span>
+                                <span className="span">
+                                  Более 10 лет делаем медицину доступнее. Наши проекты
+                                  реализованы в крупных медцентрах РФ по всей России.
+                                </span>
                             </p>
                         </div>
                     </div>
@@ -63,11 +63,6 @@ export const AboutUs = () => {
                 <Header
                     className="header-instance"
                     logo="https://c.animaapp.com/HxNiPGyi/img/logo-2.svg"
-                />
-                <img
-                    className="line"
-                    alt="Line"
-                    src="https://c.animaapp.com/HxNiPGyi/img/line.svg"
                 />
             </div>
             {isLoggedIn && <Box />}

@@ -14,7 +14,7 @@
     background-color: var(--grey-1);
     height: 1241px;
     position: relative;
-    width: 1920px;
+    width: 100%;
 }
 
 .AboutUs .overlap-group {
@@ -22,14 +22,9 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1920px;
+    width: 100%;
 }
 
-.AboutUs .header-instance {
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-}
 
 .AboutUs .line {
     height: 3px;
@@ -41,8 +36,11 @@
 
 .AboutUs .footer-instance {
     left: 0 !important;
-    position: absolute !important;
     top: 1225px !important;
+    background-color: var(--text);
+    height: 314px;
+    position: relative;
+    width: 100%;
 }
 
 .AboutUs .icon-send-square-1 {
@@ -59,7 +57,7 @@
     font-size: var(--desktop-h1-font-size);
     font-style: var(--desktop-h1-font-style);
     font-weight: var(--desktop-h1-font-weight);
-    left: 905px;
+    left: calc(50% - 70px);
     letter-spacing: var(--desktop-h1-letter-spacing);
     line-height: var(--desktop-h1-line-height);
     position: absolute;
@@ -72,7 +70,7 @@
     background-image: url(https://c.animaapp.com/HxNiPGyi/img/img.png);
     background-size: 100% 100%;
     height: 657px;
-    left: 389px;
+    left: calc((100% - 1142px)/2);
     position: absolute;
     top: 190px;
     width: 1142px;

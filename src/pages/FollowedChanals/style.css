@@ -1,30 +1,30 @@
-.Util {
+.Util1 {
     background-color: #fefefe;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.Util .div-2 {
+.Util1 .div-2 {
     background-color: var(--grey-1);
     height: 1600px;
     position: relative;
-    width: 100%;
+
 }
 
-.Util .icon-send-square-1 {
+.Util1 .icon-send-square-1 {
     height: 40px !important;
     left: calc(1491px - 910px + 50%) !important;
     position: absolute !important;
     top: 100px !important;
     width: 40px !important;
 }
-.Util .footer-instance {
+.Util1 .footer-instance {
     left: 0 !important;
     position: absolute !important;
     bottom: 0 !important;
 }
-.Util .btn-big {
+.Util1 .btn-big {
     align-items: center;
     background-color: var(--violet-1);
     border-radius: 8px;
@@ -36,7 +36,7 @@
     position: absolute;
     top: 190px;
 }
-.Util .btn-big3{
+.Util1 .btn-big3{
     align-items: center;
     background-color: var(--violet-1);
     border-radius: 8px;
@@ -48,7 +48,7 @@
     color: var(--wight);
     width: 327px;
 }
-.Util .text-wrapper-3{
+.Util1 .text-wrapper-3{
     color: var(--wight);
     font-family: var(--desktop-paragraf-font-family);
     font-size: var(--desktop-paragraf-font-size);
@@ -57,7 +57,7 @@
     letter-spacing: var(--desktop-paragraf-letter-spacing);
     line-height: var(--desktop-paragraf-line-height);
 }
-.Util .text-wrapper-7 {
+.Util1 .text-wrapper-7 {
     color: var(--wight);
     font-family: var(--desktop-paragraf-font-family);
     font-size: var(--desktop-paragraf-font-size);
@@ -68,10 +68,10 @@
     margin-top: -1.00px;
     position: relative;
     white-space: nowrap;
-    width: fit-content;
+
 }
 
-.Util .form {
+.Util1 .form {
     align-items: flex-start;
     border: 1px solid;
     border-color: var(--grey-4);
@@ -86,7 +86,7 @@
     top: 190px;
     width: 374px;
 }
-.Util .form-stream{
+.Util1 .form-stream{
     align-items: flex-start;
     border: 1px solid;
     border-color: var(--grey-4);
@@ -101,7 +101,7 @@
     top: 800px;
     width: 374px;
 }
-.Util .text-wrapper-8 {
+.Util1 .text-wrapper-8 {
     align-self: stretch;
     color: var(--text);
     font-family: var(--desktop-h5-font-family);
@@ -114,7 +114,7 @@
     position: relative;
 }
 
-.Util .fild {
+.Util1 .fild {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -122,10 +122,10 @@
     flex-direction: column;
     gap: 4px;
     position: relative;
-    width: 100%;
+
 }
 
-.Util .text-wrapper-9 {
+.Util1 .text-wrapper-9 {
     align-self: stretch;
     color: var(--grey-5);
     font-family: var(--desktop-paragraf-font-family);
@@ -138,7 +138,7 @@
     position: relative;
 }
 
-.Util .fild-2 {
+.Util1 .fild-2 {
     align-self: stretch;
     background-color: var(--grey-3);
     border-radius: var(--dental-radius-radius-10);
@@ -146,7 +146,7 @@
     position: relative;
 }
 
-.Util .div-wrapper {
+.Util1 .div-wrapper {
     align-items: center;
     align-self: stretch;
     background-color: var(--grey-3);
@@ -158,7 +158,7 @@
     position: relative;
 }
 
-.Util .text-wrapper-10 {
+.Util1 .text-wrapper-10 {
     color: var(--text);
     flex: 1;
     font-family: var(--desktop-paragraf-font-family);
@@ -172,7 +172,7 @@
     white-space: nowrap;
 }
 
-.Util .group {
+.Util1 .group {
     height: 48px;
     left: calc( 1284px - 900px + 50%) ;
     position: absolute;
@@ -180,27 +180,14 @@
     width: 351px;
 }
 
-.Util .overlap-group {
+.Util1 .overlap-group {
     height: 48px;
     position: relative;
     width: 349px;
 }
 
-.Util .p {
-    color: #ff1616;
-    font-family: var(--desktop-paragraf-font-family);
-    font-size: var(--desktop-paragraf-font-size);
-    font-style: var(--desktop-paragraf-font-style);
-    font-weight: var(--desktop-paragraf-font-weight);
-    left: 0;
-    letter-spacing: var(--desktop-paragraf-letter-spacing);
-    line-height: var(--desktop-paragraf-line-height);
-    position: absolute;
-    top: 0;
-    width: 349px;
-}
 
-.Util .line {
+.Util1 .line {
     height: 14px;
     left: calc( 286px - 910px + 50%);
     object-fit: cover;
@@ -209,7 +196,7 @@
     width: 7px;
 }
 
-.Util .text-wrapper-11 {
+.Util1 .text-wrapper-11 {
     color: var(--text);
     font-family: var(--desktop-h1-font-family);
     font-size: var(--desktop-h1-font-size);
@@ -223,7 +210,7 @@
     white-space: nowrap;
 }
 
-.Util .sidebar {
+.Util1 .sidebar {
     align-items: flex-start;
     background-color: var(--grey-3);
     border-radius: 14px;
@@ -237,39 +224,38 @@
     width: 277px;
 }
 
-.Util .frame-2 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 16px;
-    position: relative;
-    width: 100%;
-}
 
-.Util .sidebar-item-instance {
+
+.Util1 .sidebar-item-instance {
     align-self: stretch !important;
     flex: 0 0 auto !important;
-    width: 100% !important;
 }
 
-.Util .icon-instance-node {
+.Util1 .icon-instance-node {
     height: 24px !important;
     position: relative !important;
     width: 24px !important;
 }
 
-.Util .line-2 {
+.Util1 .line-2 {
     align-self: stretch;
     height: 1px;
     object-fit: cover;
     position: relative;
-    width: 100%;
+
 }
 
-.Util .header-instance {
+.Util1 .header-instance {
     left: 0 !important;
     position: absolute !important;
     top: 0 !important;
+}
+.Util1 .followedChannels{
+    left: calc(-910px + 700px + 50%);
+    position: absolute !important;
+    top: 190px;
+}
+html, body {
+
+    overflow-x: hidden;
 }
